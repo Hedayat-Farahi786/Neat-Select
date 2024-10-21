@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 function App() {
   const [allFiles, setAllFiles] = useState([]);
   const [files, setFiles] = useState([]);
-  const [excludedDirs, setExcludedDirs] = useState(['node_modules', '.git']);
+  const [excludedDirs, setExcludedDirs] = useState(['node_modules', '.git', 'package-lock.json', 'package.json']);
   const [showConfirmation, setShowConfirmation] = useState(false);
   const [selectedFiles, setSelectedFiles] = useState([]);
   const [theme, setTheme] = useState('light');
